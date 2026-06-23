@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#f3efe8;
+    font-family:Georgia, serif;
+    color:#222;
+}
+
+header{
+    background:#f5f1ea;
+    text-align:center;
+}
+
+header h1{
+    font-size:50px;
+    padding:20px;
+    font-weight:normal;
+}
+
+nav{
+    background:#2d2d2d;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-size:14px;
+}
+
+nav a:hover{
+    color:#d19a52;
+}
+
+.hero{
+    text-align:center;
+    padding:30px;
+}
+
+.hero img{
+    width:300px;
+    max-width:90%;
+}
+
+.intro{
+    background:#9a6a3c;
+    color:#111;
+    display:flex;
+    justify-content:space-between;
+    padding:40px;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.intro-texto,
+.intro-info{
+    flex:1;
+    min-width:250px;
+}
+
+.intro h2{
+    margin-bottom:15px;
+    font-size:30px;
+}
+
+.intro p,
+.intro li{
+    line-height:1.6;
+}
+
+.conteudo{
+    padding:40px;
+}
+
+.conteudo h2{
+    background:#cfcfcf;
+    text-align:center;
+    padding:20px;
+    font-size:45px;
+    font-weight:normal;
+    margin-bottom:30px;
+}
+
+.bloco{
+    display:flex;
+    align-items:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.bloco img{
+    width:220px;
+    border:2px solid #555;
+}
+
+.bloco p{
+    flex:1;
+    line-height:1.7;
+    font-size:18px;
+}
+
+.lista{
+    padding-left:25px;
+    line-height:2;
+}
+
+.referencias{
+    padding:40px;
+}
+
+.referencias h2{
+    background:#cfcfcf;
+    text-align:center;
+    padding:20px;
+    font-size:40px;
+    margin-bottom:30px;
+    font-weight:normal;
+}
+
+.cards{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.cards img{
+    width:300px;
+    height:170px;
+    object-fit:cover;
+}
+
+@media(max-width:768px){
+
+    header h1{
+        font-size:35px;
+    }
+
+    nav{
+        display:flex;
+        flex-direction:column;
+        gap:10px;
+    }
+
+    .conteudo h2{
+        font-size:32px;
+    }
+
+    .bloco{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .bloco img{
+        width:100%;
+        max-width:300px;
+    }
+
+}
