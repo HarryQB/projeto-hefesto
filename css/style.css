@@ -15,7 +15,7 @@ html {
 }
 
 header{
-    background:#f5f1ea;
+
     text-align:center;
 }
 
@@ -55,7 +55,6 @@ nav a:hover{
     background:#9a6a3c;
     color:#111;
     display:flex;
-    justify-content:space-between;
     padding:40px;
     gap:40px;
     flex-wrap:wrap;
@@ -64,7 +63,6 @@ nav a:hover{
 .intro-texto,
 .intro-info{
     flex:1;
-    min-width:250px;
 }
 
 .intro h2{
@@ -148,6 +146,10 @@ nav a:hover{
     margin-top: 5px;
     color: #2d2d2d;
     text-decoration: none;
+}
+
+.cards a:hover{
+    color: #d19a52;
 }
 
 @media(max-width:768px){
